@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LANGUAGENIUS</title>
+  <title>My Webpage</title>
   <style>
     /* Basic styling */
     body {
@@ -33,6 +33,12 @@
       text-decoration: none;
       padding: 5px 10px;
     }
+
+    .menu-image {
+    margin: 0;
+    border: none;
+    box-shadow: none;
+  }
     /* Content styles */
     .content {
       padding: 20px;
@@ -42,7 +48,7 @@
   <script>
     // JavaScript to handle content switching
     document.addEventListener("DOMContentLoaded", function() {
-      var menuLinks = document.querySelectorAll(".menu a");
+      var menuLinks = document.querySelectorAll(".menu a:not(.download-link)"); // Exclude download link
       var contentContainer = document.querySelector(".content");
       
       function loadContent(url) {
@@ -64,7 +70,7 @@
         });
       });
       
-      // Load the initial content
+      // Load the initial content (home page)
       loadContent("home.html");
     });
   </script>
@@ -73,11 +79,16 @@
   <div class="menu">
     <ul>
       <li><a href="home.html">Home</a></li>
-      <li><a href="buildings.html">Architectual Analysis</a></li>
-      <li><a href="naroman.html">National Romanticism</a></li>
-      <li><a href="architects.html">Architect Networks</a></li>
-      <li><a href="heritage.html">Heritage</a></li>
+      <li><a href="naroman.html">Style Analysis</a></li>
+      <li><a href="archnetwork.html">Architect Networks</a></li>
+      <li><a href="buildings.html">Geospatial Analysis</a></li>
+      <li><a href="map.html">Interactive Map</a></li>
       <li><a href="about.html">About</a></li>
+      <li>
+        <a href="faili/report.pdf" download class="download-link">
+          <img src="bildes/download.gif" alt="Download report" width="30" height="30" class="menu-image">
+        </a>
+      </li>
     </ul>
   </div>
   <div class="content">

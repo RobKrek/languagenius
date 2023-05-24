@@ -1,77 +1,165 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    /* Basic styling */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-    /* Centered image and text overlay */
-    .hero-image {
-      position: relative;
-      text-align: center;
-    }
-    .hero-image img {
-      display: block;
-      margin: 0 auto;
-    }
-    .hero-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      font-size: 24px;
-      text-shadow: 5px 4px 2px #000000;
-    }
-    /* Justified text */
-    .paragraphs {
-      text-align: justify;
-    }
-  </style>
+    <title>Welcome to our webpage!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+     
+        h2 {
+            color: #666;
+        }
+    
+        p {
+            color: #444;
+            line-height: 1.5;
+        }
+    
+        .container {
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    
+        .textbox {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    
+        .container h2,
+        .container .textbox,
+        .container p {
+            color: #444;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        /* Centered image and text overlay */
+        .hero-image {
+            position: relative;
+            text-align: center;
+        }
+    
+        .hero-image img {
+            display: block;
+            margin: 0 auto;
+        }
+    
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 24px;
+            text-shadow: 5px 4px 2px #000000;
+        }
+    </style>
+    
 </head>
+
+
 <body>
-  <div class="content">
-    <div class="hero-image">
-      <img src="DH-website.jpg" alt="Image" style="width: 500px; height: 300px;">
-      <div class="hero-text">
-        <h1>RIGA ART NOUVEAU</h1>
-      </div>
+    <div class="content">
+        <div class="hero-image">
+          <img src="DH-website.jpg" alt="Image" style="width: 500px; height: 300px;">
+          <div class="hero-text">
+            <h1>RIGA ART NOUVEAU</h1>
+          </div>
+        </div>
+    <h2>Welcome to our webpage!</h2>
+    <p>Here we take you on an exploration of Art Nouveau architecture in Riga, Latvia, and demonstrate the value,
+        results, and benefits of digital humanities tools for such research. Our research topics cover the following
+        areas:</p>
+
+
+    <div class="container">
+        <h2>Module 1: Understanding Art Nouveau Architecture</h2>
+        <div class="textbox">
+            <p>In this module you will learn about the background and characteristics of Art Nouveau architecture in
+                Riga and the role it played in the cultural and social context of the time. We will provide you with
+                visual tools such as QGIS maps, word cloud analysis, and timeline charts to help you better understand
+                this architectural style.</p>
+        </div>
     </div>
-    <div class="paragraphs">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p> 
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p> 
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p> 
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p> 
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p> 
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus velit. Phasellus consectetur mauris at urna ultrices, nec dapibus lacus iaculis. Proin id ipsum non turpis convallis malesuada. Suspendisse pharetra viverra ex vel eleifend. Integer dignissim aliquam lacus, et vestibulum ex consequat eget. Mauris tempus sagittis dui id lacinia. Nunc eu metus eget nisi dignissim auctor. Morbi bibendum enim vel metus rutrum, eget pulvinar tellus fringilla. Cras id ultricies ligula.</p>
-      <p>Nulla facilisi. Aenean et efficitur lectus, at tristique odio. Fusce gravida leo ut lorem sollicitudin, non commodo tellus convallis. Sed scelerisque sagittis congue. Morbi posuere ligula ac odio aliquet, non fermentum ipsum tempus. Vivamus tempor, est nec venenatis efficitur, enim orci interdum lectus, a semper sapien eros sit amet mi. Integer sed hendrerit est, eu tincidunt odio.</p>
-      <p>Pellentesque accumsan sodales ante ut fermentum. Sed at ante sed massa cursus ultrices. Curabitur tempus urna et sem lobortis lobortis. Aliquam efficitur eget odio sed gravida. Donec convallis sem quis est cursus, euismod cursus justo volutpat. Proin finibus, massa in fermentum pharetra, urna erat tincidunt mi, nec volutpat erat nisl in mauris. Praesent elementum tincidunt scelerisque. In dictum blandit arcu non elementum. Etiam ut eros orci. Integer pharetra lobortis suscipit. Sed facilisis volutpat urna, at pellentesque turpis consequat nec.</p> 
+
+
+    <div class="container">
+        <h2>Module 2: Exploring Ethno-Romantic Architecture</h2>
+        <div class="textbox">
+            <p>In this module you will learn about the Ethno-Romantic architecture of Riga Art Nouveau, including its
+                historical and cultural context. Visual tools such as QGIS maps, word cloud analysis, and timeline
+                charts will also be provided to help you better understand the features and characteristics of this
+                architectural style.</p>
+        </div>
     </div>
-  </div>
+
+
+    <div class="container">
+        <h2>Module 3: The Architect's Story</h2>
+        <div class="textbox">
+            <p>In this module, you will learn about the architects who worked with Constantin Pecqueur (Konstantīns
+                Pēkšēns), as well as their biographies and works. We will also provide images of these architects to
+                give you a better understanding of their work and style. Our research hypothesis is that the architects
+                who worked with Pecqueur all worked in an 'ethno-romantic' style, and we will try to make this
+                connection and rank the architects according to the universities they attended.</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h2>Module 4: Cultural heritage and legacy</h2>
+        <div class="textbox">
+            <p>In this module you will learn about the cultural heritage and cultural transmission aspects of the Art
+                Nouveau architecture in Riga, Latvia. We will provide you with relevant data analysis and visualization
+                tools to help you better understand the situation and trends in this field.</p>
+        </div>
+    </div>
+
+
+    <p>Our research is based on information provided by the Art Nouveau Museum in Riga, Latvia, and we collate and
+        analyze this data through a digital humanities approach. Although there are no readily available databases for
+        our subject matter, this is where digital humanities research is beneficial, as we can create and collate the
+        data ourselves from scratch and use visualization methods to uncover hidden patterns and trends in the data.</p>
+
+
+    <p>Our research is not just about the description and study of historic buildings, but also about demonstrating the
+        benefits of digital humanities tools for humanities research through digital humanities means. The digital
+        humanities approach provides us with additional analytical tools and perspectives that allow us to better
+        understand the cultural context and heritage of historic buildings. At the same time, digital humanities tools
+        provide more ways to present our research findings in a more engaging and inspiring way. Through this webpage,
+        we hope to demonstrate the application of digital humanities technology in the field of cultural heritage, as
+        well as the advantages and limitations of such research.</p>
+
+
+    <h3>When we talk about digital humanities research...</h3>
+    <p>When we talk about digital humanities research, we are not just collecting and collating data, but we are
+        thinking about how data can be transformed into meaningful information and knowledge through digital tools and
+        technologies. We are not just studying the Art Nouveau architecture of Riga, Latvia, but assessing the
+        importance of digital humanities to such research. By using digital humanities tools, techniques to collate and
+        visualize data, we can more fully understand and interpret the historical and cultural context of these
+        buildings, and even suggest new questions and solutions. Through digital humanities tools, we can better present
+        research results and can better present them to the public and other researchers.</p>
+
+
+    <p>Therefore, the focus of this research is not only to present the Art Nouveau architecture of Riga, Latvia, but
+        more importantly to highlight the value and benefits of digital humanities research. Digital humanities are
+        important for such research, helping us to better understand history and culture, and bringing more innovation
+        and novelty to our research. Our research will highlight some key aspects of digital humanities research, such
+        as data collection, collation, visualization, and analysis, as well as the application of digital humanities
+        tools and technologies in the humanities, to provide some reference and learning for the development of digital
+        humanities.</p>
 </body>
+
+
 </html>
-   
